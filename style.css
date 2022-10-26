@@ -1,0 +1,43 @@
+.container{
+  display:flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.seccion{
+  width: 200px;
+  background: #524c4c;
+  border-radius: 5px;
+  padding: 1rem;
+  margin:1rem;
+  box-shadow: 0 0 3px rgba(0,0,0,0.2);
+  color: #fff;
+  font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+
+.parrafo{
+  margin:1rem;
+  padding:1rem;
+  border-radius: 5px;
+  border: none;
+  background: #121212;
+  font-size: 14px;
+}
+
+.parrafo.drag {
+  opacity: 0.3;
+}
+
+.imagen-fantasma {
+  width: 300px;
+  height: 300px;
+  background-color: red;
+  }
+
+.basura{
+  width: 100px;
+  height: 100px;
+}
